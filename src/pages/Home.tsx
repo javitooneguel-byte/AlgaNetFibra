@@ -999,6 +999,91 @@ export function Home() {
         </div>
       </section>
 
+      {/* 14.5. SEÇÃO DE SEO PREMIUM E DICAS DE CONEXÃO */}
+      <section id="seo_insights_section" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-50 to-white py-16 rounded-3xl border border-slate-100">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+          
+          <div className="lg:col-span-6 space-y-6">
+            <span className="text-[11px] font-bold uppercase tracking-widest text-green-600 bg-green-50 px-3 py-1.5 rounded-full border border-green-100 inline-block">
+              Guia Tecnológico & SEO Local
+            </span>
+            <h2 className="text-3xl sm:text-4xl font-black text-slate-900 tracking-tight leading-none uppercase italic">
+              Por que a <span className="text-green-500">Fibra Óptica Real</span> faz toda diferença?
+            </h2>
+            <div className="w-16 h-1 bg-green-500 rounded-full mt-2"></div>
+            <p className="text-slate-600 text-sm leading-relaxed mt-4">
+              Diferente de conexões antigas de cabo coaxial ou fiação de cobre degradada, a infraestrutura 100% própria da <strong>Sennatel | Alga Net</strong> entrega fibra óptica autêntica direto dentro do seu roteador (tecnologia conhecida como FTTH - <i>Fiber to the Home</i>). Isso garante imunidade total a interferências climáticas ou magnéticas, atenuação nula e latência de apenas um dígito para jogos online ou chamadas profissionais importantes.
+            </p>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+              <div className="p-4 bg-white rounded-xl border border-slate-100 shadow-xs space-y-2">
+                <div className="w-8 h-8 rounded-lg bg-green-50 flex items-center justify-center text-green-500">
+                  <Zap className="w-4 h-4" />
+                </div>
+                <h4 className="font-bold text-slate-800 text-xs uppercase tracking-wide">Latência Ultramínima</h4>
+                <p className="text-slate-500 text-[11px] leading-relaxed">Ping de 2ms a 8ms ideal para transmissões de lives, reuniões fluidas, jogos competitivos e servidores na nuvem.</p>
+              </div>
+
+              <div className="p-4 bg-white rounded-xl border border-slate-100 shadow-xs space-y-2">
+                <div className="w-8 h-8 rounded-lg bg-green-50 flex items-center justify-center text-green-500">
+                  <Wifi className="w-4 h-4" />
+                </div>
+                <h4 className="font-bold text-slate-800 text-xs uppercase tracking-wide">Roteador Dual-Band Plus</h4>
+                <p className="text-slate-500 text-[11px] leading-relaxed">Equipamentos Gigabit de última geração operando em frequências 2.4Ghz e 5Ghz para cobertura sem pontos cegos.</p>
+              </div>
+
+              <div className="p-4 bg-white rounded-xl border border-slate-100 shadow-xs space-y-2">
+                <div className="w-8 h-8 rounded-lg bg-green-50 flex items-center justify-center text-green-500">
+                  <Activity className="w-4 h-4" />
+                </div>
+                <h4 className="font-bold text-slate-800 text-xs uppercase tracking-wide">Upload Simétrico</h4>
+                <p className="text-slate-500 text-[11px] leading-relaxed">Envie arquivos pesados e faça streaming utilizando a mesma velocidade gigantesca do download, livre de congestionamento.</p>
+              </div>
+
+              <div className="p-4 bg-white rounded-xl border border-slate-100 shadow-xs space-y-2">
+                <div className="w-8 h-8 rounded-lg bg-green-50 flex items-center justify-center text-green-500">
+                  <Shield className="w-4 h-4" />
+                </div>
+                <h4 className="font-bold text-slate-800 text-xs uppercase tracking-wide">Infraestrutura Tolerante</h4>
+                <p className="text-slate-500 text-[11px] leading-relaxed">Anéis de redundância de rede de alta velocidade para manter sua conexão online contínua inclusive em intempéries.</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="lg:col-span-6 space-y-6">
+            <div className="p-6 sm:p-8 bg-slate-900 text-white rounded-3xl shadow-xl space-y-6 relative overflow-hidden ring-1 ring-white/10">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-green-500/10 rounded-full blur-3xl"></div>
+              
+              <div className="space-y-2">
+                <h3 className="font-black text-lg tracking-wider text-green-400 uppercase italic">Compromisso de Cobertura de Qualidade</h3>
+                <p className="text-xs text-slate-300 leading-relaxed">
+                  Para todos os distritos paulistas, a <strong>Sennatel (Alga Net Fibra)</strong> tem o objetivo de trazer inclusão digital robusta e ultra banda larga veloz. Nossas equipes instaladores garantem rapidez inédita nos agendamentos e vistorias preventivas frequentes para que você fique conectado com quem ama.
+                </p>
+              </div>
+
+              <div className="border-t border-slate-800 pt-6 space-y-4">
+                <h4 className="font-bold text-xs uppercase tracking-wider text-slate-400">Termos e Tópicos Populares de Conexão Banda Larga:</h4>
+                <div className="flex flex-wrap gap-2">
+                  {['Qual a internet banda larga mais estável?', 'Provedores de Fibra com suporte humano', 'Internet Fibra Perto de Mim', 'Planos de Fibra Óptica Brooklin', 'Melhor Banda Larga para Home Office', 'Testar Velocidade do Wi-fi'].map((keyword, idx) => (
+                    <span key={idx} className="bg-slate-800 text-slate-300 text-[10px] font-semibold tracking-wide py-1.5 px-3 rounded-full hover:bg-slate-750 border border-slate-700/50 transition duration-200 cursor-default">
+                      {keyword}
+                    </span>
+                  ))}
+                </div>
+              </div>
+
+              <div className="bg-slate-800/40 p-4 rounded-xl border border-slate-700/20">
+                <h3 className="font-bold text-xs text-green-400 tracking-wide uppercase">💡 Recomendação Pro de Performance Interna:</h3>
+                <p className="text-[11px] text-slate-300 mt-1.5 leading-relaxed">
+                  Busque sempre instalar seu roteador centralizado e em local alto. Se você utiliza consoles de jogos, computadores desktop ou TVs de streaming em altíssima resolução, prefira conectar utilizando cabos LAN/RJ45 para usufruir de 100% da taxa contratada com total imunidade ao ruído de sinal do ambiente.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
       {/* 15. MAPA SECTION */}
       <section id="mapa_section" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto space-y-4 mb-12">
