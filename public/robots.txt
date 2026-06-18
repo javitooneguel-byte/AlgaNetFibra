@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://alganetfibra.com.br/sitemap.xml

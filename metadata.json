@@ -1,0 +1,6 @@
+{
+  "name": "Alga Net Fibra",
+  "description": "Site institucional de internet fibra óptica com planos, cobertura, suporte, central e área para contato.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
