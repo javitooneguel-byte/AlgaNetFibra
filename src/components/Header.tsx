@@ -72,7 +72,7 @@ export function Header() {
             aria-label="Ir para a página inicial"
             className="group flex items-center focus:outline-none"
           >
-            <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-blue-600 bg-white shadow-md flex items-center justify-center transition-all duration-300 group-hover:scale-105 group-hover:border-blue-500">
+            <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-[#28BEA5] bg-white shadow-md flex items-center justify-center transition-all duration-300 group-hover:scale-105 group-hover:border-[#28BEA5]/80">
               <img
                 src="https://i.ibb.co/4Rj1ffHW/images-2.jpg"
                 alt="Logo Alga Net Fibra"
@@ -97,8 +97,8 @@ export function Header() {
                 onClick={() => handleLinkClick(item.path)}
                 className={`text-[11px] font-bold uppercase tracking-wider transition-all duration-200 ${
                   currentRoute === item.path
-                    ? 'text-blue-600 border-b-2 border-blue-600 pb-1 rounded-none px-1'
-                    : 'text-slate-600 hover:text-blue-600 pb-1 border-b-2 border-transparent px-1'
+                    ? 'text-[#28BEA5] border-b-2 border-[#28BEA5] pb-1 rounded-none px-1'
+                    : 'text-slate-600 hover:text-[#28BEA5] pb-1 border-b-2 border-transparent px-1'
                 }`}
               >
                 {item.label}
@@ -113,13 +113,13 @@ export function Header() {
                 onBlur={() => setTimeout(() => setPoliciesOpen(false), 200)}
                 className={`flex items-center space-x-1 text-[11px] font-bold uppercase tracking-wider transition-all duration-200 ${
                   policiesOpen
-                    ? 'text-blue-600 border-b-2 border-blue-600 pb-1 rounded-none px-1'
-                    : 'text-slate-600 hover:text-blue-600 pb-1 border-b-2 border-transparent px-1'
+                    ? 'text-[#28BEA5] border-b-2 border-[#28BEA5] pb-1 rounded-none px-1'
+                    : 'text-slate-600 hover:text-[#28BEA5] pb-1 border-b-2 border-transparent px-1'
                 }`}
                 aria-expanded={policiesOpen}
               >
                 <span>Políticas</span>
-                <ChevronDown className={`w-3.5 h-3.5 transition-transform duration-200 ${policiesOpen ? 'rotate-180 text-blue-600' : ''}`} />
+                <ChevronDown className={`w-3.5 h-3.5 transition-transform duration-200 ${policiesOpen ? 'rotate-180 text-[#28BEA5]' : ''}`} />
               </button>
 
               {/* Submenu */}
@@ -136,8 +136,8 @@ export function Header() {
                         onClick={() => handleLinkClick(item.path)}
                         className={`w-full text-left block px-4 py-2.5 text-xs font-semibold uppercase tracking-wider transition-colors ${
                           currentRoute === item.path
-                            ? 'text-blue-600 bg-blue-50/50'
-                            : 'text-slate-600 hover:text-blue-600 hover:bg-gray-50'
+                            ? 'text-[#28BEA5] bg-[#28BEA5]/5'
+                            : 'text-slate-600 hover:text-[#28BEA5] hover:bg-gray-50'
                         }`}
                       >
                         {item.label}
@@ -153,10 +153,10 @@ export function Header() {
           <div className="hidden lg:flex items-center space-x-4">
             <a
               href="tel:1155314995"
-              className="flex items-center text-[11px] font-bold uppercase tracking-wider text-slate-600 hover:text-blue-600 transition"
+              className="flex items-center text-[11px] font-bold uppercase tracking-wider text-slate-600 hover:text-[#28BEA5] transition"
               id="cta_call"
             >
-              <Phone className="w-4 h-4 text-blue-600 mr-1.5" />
+              <Phone className="w-4 h-4 text-[#28BEA5] mr-1.5" />
               <span>(11) 5531-4995</span>
             </a>
             <a
@@ -164,7 +164,7 @@ export function Header() {
               target="_blank"
               rel="noopener noreferrer"
               id="cta_whatsapp_header"
-              className="inline-flex items-center justify-center bg-green-500 hover:bg-green-600 text-white font-bold text-xs py-2 px-5 rounded-full transition-all duration-300 shadow-[0_4px_12px_rgba(34,197,94,0.3)] hover:shadow-[0_4px_20px_rgba(34,197,94,0.5)] hover:scale-[1.03] focus:outline-none"
+              className="inline-flex items-center justify-center bg-[#28BEA5] hover:bg-[#28BEA5]/90 text-white font-bold text-xs py-2 px-5 rounded-full transition-all duration-300 shadow-[0_4px_12px_rgba(40,190,165,0.3)] hover:shadow-[0_4px_20px_rgba(40,190,165,0.5)] hover:scale-[1.03] focus:outline-none"
             >
               <WhatsAppIcon className="w-3.5 h-3.5 mr-1.5" />
               <span>Assinar Fibra</span>
@@ -176,7 +176,7 @@ export function Header() {
             <button
               onClick={() => setIsOpen(!isOpen)}
               id="mobile_menu_button"
-              className="inline-flex items-center justify-center p-2 rounded-md text-gray-600 hover:text-blue-600 hover:bg-gray-100 focus:outline-none"
+              className="inline-flex items-center justify-center p-2 rounded-md text-gray-600 hover:text-[#28BEA5] hover:bg-gray-100 focus:outline-none"
               aria-label="Abrir menu"
             >
               {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -201,8 +201,8 @@ export function Header() {
               onClick={() => handleLinkClick(item.path)}
               className={`w-full text-left block px-3 py-2.5 rounded-lg text-base font-medium transition-colors ${
                 currentRoute === item.path
-                  ? 'text-blue-600 bg-blue-50'
-                  : 'text-gray-700 hover:text-blue-500 hover:bg-gray-50'
+                  ? 'text-[#28BEA5] bg-[#28BEA5]/5'
+                  : 'text-gray-700 hover:text-[#28BEA5] hover:bg-gray-50'
               }`}
             >
               {item.label}
@@ -221,8 +221,8 @@ export function Header() {
                 onClick={() => handleLinkClick(item.path)}
                 className={`w-full text-left block px-3 py-2 rounded-md text-sm font-medium transition-colors ${
                   currentRoute === item.path
-                    ? 'text-blue-500 bg-blue-50/50'
-                    : 'text-gray-600 hover:text-blue-500 hover:bg-gray-50'
+                    ? 'text-[#28BEA5] bg-[#28BEA5]/5'
+                    : 'text-gray-600 hover:text-[#28BEA5] hover:bg-gray-50'
                 }`}
               >
                 {item.label}
@@ -233,16 +233,16 @@ export function Header() {
           <div className="pt-4 border-t border-gray-100 space-y-2">
             <a
               href="tel:1155314995"
-              className="flex items-center px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-600"
+              className="flex items-center px-3 py-2 text-base font-medium text-gray-700 hover:text-[#28BEA5]"
             >
-              <Phone className="w-5 h-5 text-blue-600 mr-2" />
+              <Phone className="w-5 h-5 text-[#28BEA5] mr-2" />
               <span>(11) 5531-4995</span>
             </a>
             <a
               href="https://wa.me/551155314995?text=Ol%C3%A1%21+Gostaria+de+consultar+a+cobertura+da+fibra+e+conhecer+os+planos."
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full flex items-center justify-center bg-green-500 hover:bg-green-600 text-white font-medium py-3 px-4 rounded-xl transition shadow shadow-green-500/20"
+              className="w-full flex items-center justify-center bg-[#28BEA5] hover:bg-[#28BEA5]/90 text-white font-medium py-3 px-4 rounded-xl transition shadow shadow-[#28BEA5]/20"
             >
               <WhatsAppIcon className="w-5 h-5 mr-2" />
               <span>Falar com Atendente</span>
