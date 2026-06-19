@@ -1,5 +1,18 @@
 import React from 'react';
-import { MessageSquare, CheckCircle, Clock, ShieldCheck } from 'lucide-react';
+import { 
+  MessageSquare, 
+  PhoneCall, 
+  Mail, 
+  MapPin, 
+  Clock, 
+  Smartphone,
+  ArrowRight,
+  ShieldCheck,
+  Zap,
+  Sparkles,
+  Server,
+  Headphones
+} from 'lucide-react';
 
 const WhatsAppIcon = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
@@ -14,136 +27,177 @@ const WhatsAppIcon = (props: React.SVGProps<SVGSVGElement>) => (
 
 export function Central() {
   const zapNumber = "551155314995";
+  const emailContact = "contato.alganetfibra.com";
 
-  const services = [
+  const departments = [
     {
-      id: "pedir_fibra",
-      title: "Quero Pedir Minha Net Fibra",
-      description: "Inicie o procedimento de adesão com nosso especialista de prontidão.",
-      buttonText: "CHAMAR NO WHATSAPP",
-      message: "Olá! Gostaria de pedir a minha Net Fibra. Iniciar o procedimento de adesão com o especialista.",
-      color: "bg-green-50 text-green-600 border-green-100",
-      btnColor: "bg-green-500 hover:bg-green-600 shadow-[0_4px_18px_rgba(34,197,94,0.35)] hover:shadow-[0_4px_25px_rgba(34,197,94,0.5)]"
+      id: "vendas",
+      title: "Contratar Fibra - Novas Assinaturas",
+      description: "Consultoria completa de vendas, planos de ultra velocidade 300 Mega a 1 Giga com Wi-Fi 6 e instalação inclusa no Brooklin.",
+      badge: "Vendas Online",
+      message: "Olá! Gostaria de consultar a cobertura de fibra óptica e conhecer os melhores planos.",
+      color: "border-[#28BEA5]/20 bg-[#28BEA5]/5 text-[#28BEA5]",
+      btnStyle: "bg-[#28BEA5] hover:bg-[#28BEA5]/90 text-white shadow-[0_4px_16px_rgba(40,190,165,0.3)] hover:scale-[1.03]"
     },
     {
-      id: "suporte_tecnico",
-      title: "Falar com Suporte Técnico",
-      description: "Tire dúvidas sobre instalação, cobertura etc.",
-      buttonText: "CHAMAR ANA NO WHATSAPP",
-      message: "Olá, Ana! Preciso de suporte técnico para tirar dúvidas sobre instalação, cobertura ou conexão.",
-      color: "bg-green-50 text-green-600 border-green-100",
-      btnColor: "bg-green-500 hover:bg-green-600 shadow-[0_4px_18px_rgba(34,197,94,0.35)] hover:shadow-[0_4px_25px_rgba(34,197,94,0.5)]"
+      id: "suporte",
+      title: "Suporte Técnico Especializado",
+      description: "Suporte especializado para configurar roteador Wi-Fi, melhorar sinal ou consultar manutenções preventivas.",
+      badge: "Suporte Ativo",
+      message: "Olá! Preciso de auxílio ou suporte técnico especializado para a minha conexão de internet.",
+      color: "border-sky-100 bg-sky-50/50 text-sky-600",
+      btnStyle: "bg-sky-600 hover:bg-sky-700 text-white shadow-[0_4px_16px_rgba(2,132,199,0.3)] hover:scale-[1.03]"
     },
     {
-      id: "atualizar_cadastro",
-      title: "Atualizar Meus Dados Cadastrais",
-      description: "Modifique dados do seu cadastro.",
-      buttonText: "CHAMAR ANA NO WHATSAPP",
-      message: "Olá, Ana! Preciso atualizar meus dados cadastrais. Gostaria de solicitar a modificação do meu cadastro.",
-      color: "bg-green-50 text-green-600 border-green-100",
-      btnColor: "bg-green-500 hover:bg-green-600 shadow-[0_4px_18px_rgba(34,197,94,0.35)] hover:shadow-[0_4px_25px_rgba(34,197,94,0.5)]"
-    },
-    {
-      id: "outros_cancelamentos",
-      title: "Outras Solicitações e Cancelamentos",
-      description: "Atendimento transparente e imediato sem burocracias.",
-      buttonText: "CHAMAR ANA NO WHATSAPP",
-      message: "Olá, Ana! Gostaria de fazer uma solicitação ou tratar sobre cancelamento com atendimento transparente e imediato.",
-      color: "bg-green-50 text-green-600 border-green-100",
-      btnColor: "bg-green-500 hover:bg-green-600 shadow-[0_4px_18px_rgba(34,197,94,0.35)] hover:shadow-[0_4px_25px_rgba(34,197,94,0.5)]"
+      id: "financeiro",
+      title: "Financeiro & Segundas Vias",
+      description: "Emissão imediata de segunda via de boletos, comprovantes de pagamento e consultas de mensalidades.",
+      badge: "Financeiro",
+      message: "Olá! Gostaria de falar com o departamento financeiro para conferir minhas faturas ou solicitar o Pix.",
+      color: "border-amber-100 bg-amber-50/50 text-amber-600",
+      btnStyle: "bg-amber-600 hover:bg-amber-700 text-white shadow-[0_4px_16px_rgba(217,119,6,0.3)] hover:scale-[1.03]"
     }
   ];
 
   return (
-    <div id="central_page" className="py-12 md:py-20 bg-slate-50 min-h-screen font-sans">
+    <div id="contact_page" className="py-12 md:py-24 bg-slate-50 min-h-screen font-sans">
       
-      {/* Page Header */}
-      <section className="max-w-4xl mx-auto px-4 text-center space-y-4 mb-12">
-        <span className="text-[11px] font-bold uppercase tracking-widest text-emerald-600 bg-emerald-50 px-3.5 py-1.5 rounded-full border border-emerald-100 inline-block">
-          Atendimento Direto WhatsApp
-        </span>
-        <h1 className="text-3xl sm:text-5xl font-black text-slate-900 tracking-tight uppercase italic">
-          Central de Filial
+      {/* Hero section */}
+      <section className="max-w-4xl mx-auto px-4 mb-16 text-center">
+        <div className="inline-flex items-center space-x-2 bg-[#28BEA5]/10 border border-[#28BEA5]/20 px-4 py-1.5 rounded-full mb-6">
+          <MessageSquare className="w-3.5 h-3.5 text-[#28BEA5]" />
+          <span className="text-[11px] font-black text-[#28BEA5] uppercase tracking-wider">Fale Conosco</span>
+        </div>
+        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-slate-900 tracking-tight leading-none uppercase italic">
+          CANAIS DE <span className="text-[#28BEA5]">CONTATO</span>
         </h1>
-        <div className="w-20 h-1 bg-green-500 mx-auto rounded-full"></div>
-        <p className="text-slate-500 max-w-xl mx-auto text-sm font-medium">
-          Diga adeus a ligações demoradas e menus de robôs. Nosso suporte é humano, direto e imediato via WhatsApp.
+        <div className="w-24 h-1.5 bg-[#28BEA5] mx-auto rounded-full mt-4"></div>
+        <p className="text-slate-500 max-w-2xl mx-auto text-sm md:text-base font-medium mt-5 leading-relaxed">
+          Evite esperas e burocracia. Nossos canais de atendimento estão prontos para te ajudar imediatamente de forma simples e rápida. Clique em uma das opções abaixo para iniciar sua conversa.
         </p>
       </section>
 
-      {/* Main Focus Component */}
-      <section className="max-w-3xl mx-auto px-4">
-        <div className="bg-white rounded-3xl border border-slate-100 shadow-xl p-6 sm:p-10 space-y-8 relative overflow-hidden">
-          <div className="absolute top-0 inset-x-0 h-1.5 bg-gradient-to-r from-green-500 to-emerald-400"></div>
-
-          {/* User directive introductory text */}
-          <div className="text-center md:text-left border-b border-slate-100 pb-6">
-            <h2 className="text-lg sm:text-xl font-bold text-slate-800 flex items-center justify-center md:justify-start gap-2.5">
-              <span className="w-2.5 h-2.5 rounded-full bg-green-500 animate-ping"></span>
-              Selecione o serviço desejado abaixo:
-            </h2>
-            <p className="text-xs text-slate-400 mt-1 uppercase tracking-wider font-semibold">
-              O atendimento iniciará instantaneamente no seu celular ou computador
-            </p>
-          </div>
-
-          {/* Services Grid Selection */}
-          <div className="space-y-6">
-            {services.map((svc) => {
-              return (
-                <div 
-                  key={svc.id}
-                  id={`service_card_${svc.id}`}
-                  className="group bg-slate-50/50 hover:bg-white p-5 rounded-2xl border border-slate-100 hover:border-slate-300 hover:shadow-lg transition-all duration-300 flex flex-col md:flex-row md:items-center justify-between gap-6"
-                >
-                  <div className="flex items-center gap-4">
-                    <div className={`w-12 h-12 rounded-xl flex items-center justify-center border shrink-0 transition-all duration-300 group-hover:scale-110 ${svc.color}`}>
-                      <WhatsAppIcon className="w-6 h-6" />
-                    </div>
-                    <div>
-                      <h3 className="text-base font-bold text-slate-900 group-hover:text-green-600 transition-colors">
-                        {svc.title}
-                      </h3>
-                      <p className="text-xs text-slate-500 mt-1 font-medium">
-                        {svc.description}
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="shrink-0">
-                    <a
-                      href={`https://wa.me/${zapNumber}?text=${encodeURIComponent(svc.message)}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className={`w-full md:w-auto inline-flex items-center justify-center gap-2.5 text-white font-black text-xs uppercase tracking-wider py-3.5 px-6 rounded-xl transition-all duration-300 hover:scale-[1.03] active:scale-95 ${svc.btnColor}`}
-                    >
-                      <WhatsAppIcon className="w-4 h-4" />
-                      <span>{svc.buttonText}</span>
-                    </a>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-
-          {/* Prompt SLA & Security compliance */}
-          <div className="bg-slate-50 p-4 rounded-xl border border-slate-100 flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left mt-4">
-            <div className="flex items-center gap-3">
-              <ShieldCheck className="w-5 h-5 text-green-600 shrink-0" />
-              <div>
-                <p className="text-xs font-bold text-slate-800 uppercase tracking-wide">Atendimento 100% Criptografado</p>
-                <p className="text-[10px] text-slate-400 font-semibold uppercase tracking-wider">Seus dados estão protegidos sob a LGPD</p>
-              </div>
+      <div className="max-w-4xl mx-auto px-4 space-y-8">
+        
+        {/* Working Hours Banner */}
+        <div className="bg-white rounded-3xl border border-slate-100 p-6 md:p-8 shadow-md flex flex-col md:flex-row items-center justify-between gap-6 relative overflow-hidden">
+          <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-[#28BEA5] to-teal-400"></div>
+          
+          <div className="flex items-center gap-4">
+            <div className="w-12 h-12 rounded-2xl bg-[#28BEA5]/10 flex items-center justify-center text-[#28BEA5] shrink-0">
+              <Clock className="w-6 h-6" />
             </div>
-            <div className="flex items-center gap-2">
-              <Clock className="w-4 h-4 text-emerald-500" />
-              <span className="text-[10px] font-bold text-emerald-600 uppercase tracking-widest bg-emerald-50 border border-emerald-100 px-2 py-0.5 rounded">
-                Tempo de Espera: ~2 min
-              </span>
+            <div>
+              <h3 className="text-sm font-bold uppercase text-slate-400 tracking-wider">Horário de Funcionamento</h3>
+              <p className="text-base font-black text-slate-800 uppercase tracking-tight mt-0.5">
+                Atendimento das <span className="text-[#28BEA5]">07h da manhã até 18h</span>
+              </p>
+              <p className="text-xs text-slate-500 font-medium">De Segunda a Sábado com agentes especializados.</p>
+            </div>
+          </div>
+
+          <div className="flex items-center space-x-2 bg-emerald-50 border border-emerald-100 px-3.5 py-1.5 rounded-full shadow-sm">
+            <span className="relative flex h-2 w-2">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+              <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+            </span>
+            <span className="text-[10px] font-bold text-emerald-800 uppercase tracking-wider">Operadores Disponíveis</span>
+          </div>
+        </div>
+
+        {/* Contact cards section */}
+        <div className="space-y-4">
+          <h2 className="text-xs font-black uppercase text-slate-400 tracking-widest flex items-center gap-2">
+            <Smartphone className="w-4 h-4 text-slate-400" /> WhatsApp Direto por Setor
+          </h2>
+
+          <div className="grid grid-cols-1 gap-4">
+            {departments.map((dept) => (
+              <div 
+                key={dept.id} 
+                className="bg-white p-6 rounded-3xl border border-slate-100 hover:border-[#28BEA5]/40 hover:shadow-lg transition-all duration-300 flex flex-col md:flex-row md:items-center justify-between gap-6"
+              >
+                <div className="space-y-2.5 max-w-xl">
+                  <div className="flex items-center gap-2">
+                    <span className={`text-[9px] font-extrabold uppercase px-2.5 py-1 rounded-lg border ${dept.color}`}>
+                      {dept.badge}
+                    </span>
+                  </div>
+                  <h3 className="text-base md:text-lg font-black text-slate-900 uppercase tracking-tight">
+                    {dept.title}
+                  </h3>
+                  <p className="text-xs md:text-sm text-slate-500 leading-relaxed font-medium">
+                    {dept.description}
+                  </p>
+                </div>
+
+                <a
+                  href={`https://wa.me/${zapNumber}?text=${encodeURIComponent(dept.message)}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={`inline-flex items-center justify-center gap-2.5 text-xs font-extrabold uppercase tracking-widest py-4 px-6 rounded-2xl transition-all duration-300 ${dept.btnStyle} shrink-0`}
+                >
+                  <WhatsAppIcon className="w-4 h-4 fill-current" />
+                  <span>Enviar Mensagem</span>
+                </a>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Secondary fast contact buttons (Phone, Email, Base) */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 h-full pt-4">
+          
+          <a 
+            href="tel:1155314995" 
+            className="bg-white p-6 rounded-3xl border border-slate-100 hover:border-[#28BEA5]/30 hover:shadow-md transition-all duration-300 flex flex-col items-center text-center space-y-3 group"
+          >
+            <div className="w-12 h-12 rounded-full bg-slate-50 text-slate-800 flex items-center justify-center transition-colors group-hover:bg-[#28BEA5]/10 group-hover:text-[#28BEA5]">
+              <PhoneCall className="w-5 h-5" />
+            </div>
+            <div>
+              <p className="text-[9px] text-slate-400 font-extrabold uppercase tracking-widest">Ligações por Telefone</p>
+              <p className="text-sm font-black text-slate-800 mt-1 uppercase tracking-tight font-mono">(11) 5531-4995</p>
+              <p className="text-[10px] text-slate-500 font-medium">Fale conosco por chamada fixo</p>
+            </div>
+          </a>
+
+          <a 
+            href={`mailto:${emailContact}`} 
+            className="bg-white p-6 rounded-3xl border border-slate-100 hover:border-[#28BEA5]/30 hover:shadow-md transition-all duration-300 flex flex-col items-center text-center space-y-3 group"
+          >
+            <div className="w-12 h-12 rounded-full bg-slate-50 text-slate-800 flex items-center justify-center transition-colors group-hover:bg-[#28BEA5]/10 group-hover:text-[#28BEA5]">
+              <Mail className="w-5 h-5" />
+            </div>
+            <div>
+              <p className="text-[9px] text-slate-400 font-extrabold uppercase tracking-widest">E-mail de Contato</p>
+              <p className="text-sm font-black text-slate-800 mt-1 tracking-tight lowercase">{emailContact}</p>
+              <p className="text-[10px] text-slate-500 font-medium">Contatos oficiais de mensagens</p>
+            </div>
+          </a>
+
+          <div 
+            className="bg-white p-6 rounded-3xl border border-slate-100 flex flex-col items-center text-center space-y-3"
+          >
+            <div className="w-12 h-12 rounded-full bg-slate-50 text-[#28BEA5] flex items-center justify-center">
+              <MapPin className="w-5 h-5" />
+            </div>
+            <div>
+              <p className="text-[9px] text-slate-400 font-extrabold uppercase tracking-widest">Sede Principal</p>
+              <p className="text-sm font-black text-slate-800 mt-1 uppercase tracking-tight">Brooklin Paulista</p>
+              <p className="text-[10px] text-slate-500 font-medium">São Paulo - SP, Brasil</p>
             </div>
           </div>
 
         </div>
+
+      </div>
+
+      {/* Safety & Compliance Bottom strip */}
+      <section className="max-w-4xl mx-auto px-4 mt-16 text-center">
+        <p className="text-[10px] text-slate-400 uppercase tracking-widest font-bold">
+          Sennatel Telecomunicações Integradas LTDA • Alga Net Fibra • Brooklin • São Paulo - SP
+        </p>
       </section>
 
     </div>

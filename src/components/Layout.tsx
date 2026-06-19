@@ -1,7 +1,7 @@
 import React, { ReactNode, useState, useEffect } from 'react';
 import { Header } from './Header';
 import { Footer } from './Footer';
-import { ArrowUp, Zap, HelpCircle } from 'lucide-react';
+import { ArrowUp, Zap } from 'lucide-react';
 import { Route } from '../types';
 import { navigateTo } from '../utils/router';
 
@@ -90,14 +90,6 @@ export function Layout({ children }: LayoutProps) {
           >
             <WhatsAppIcon className="w-6 h-6" />
           </a>
-        </div>
-
-        {/* Support floating quick helper */}
-        <div className="bg-blue-600 hover:bg-blue-700 text-white flex items-center justify-center w-10 h-10 rounded-full shadow-lg transition-all duration-200 hover:scale-105 cursor-pointer"
-             onClick={() => navigateTo('/suporte' as Route)}
-             title="Painel de Ajuda Rápida"
-        >
-          <HelpCircle className="w-5 h-5" />
         </div>
 
         {/* Back to Top Button */}
