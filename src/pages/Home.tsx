@@ -219,7 +219,7 @@ export function Home() {
                 <div className="mt-6 border-t border-slate-100 pt-4 flex items-center justify-between">
                   <span className="text-[10px] uppercase font-bold text-slate-400 tracking-wider">Via WhatsApp:</span>
                   <a
-                    href="https://wa.me/551155314995?text=Ol%C3%A1%21+Quero+consultar+cobertura+para+o+CEP+de+minha+casa."
+                    href="https://wa.me/551196518981?text=Olá! Quero consultar cobertura para o CEP de minha casa."
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-xs font-bold text-green-600 hover:underline flex items-center gap-1.5 uppercase tracking-wider"
@@ -386,7 +386,7 @@ export function Home() {
 
                 <div className="p-8 pt-0 mt-auto">
                   <a
-                    href={`https://wa.me/551155314995?text=Ol%C3%A1%21+Gostaria+de+contratar+o+plano+${encodeURIComponent(plan.name)}+por+R%24+${plan.price}.`}
+                    href={`https://wa.me/551196518981?text=Olá! Gostaria de contratar o plano ${encodeURIComponent(plan.name)} por R$ ${plan.price}.`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-full py-3.5 px-4 bg-green-500 hover:bg-green-600 text-white font-bold text-sm rounded-xl transition-colors shadow-md hover:shadow-green-500/30 flex items-center justify-center gap-2"
@@ -718,7 +718,7 @@ export function Home() {
               Acessar Painel de Suporte
             </button>
             <a
-              href="https://wa.me/551155314995?text=Preciso+de+suporte+técnico."
+              href="https://wa.me/551196518981?text=Preciso de suporte técnico."
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-4 bg-green-500 hover:bg-green-600 text-white font-bold rounded-xl transition text-center text-sm flex items-center justify-center space-x-2 shadow-lg shadow-green-500/20"
@@ -879,21 +879,21 @@ export function Home() {
                   <Phone className="w-5 h-5 text-blue-600 mr-3 shrink-0 mt-0.5" />
                   <div>
                     <p className="font-bold text-slate-950 text-sm">Faturamento e Telefone Comercial</p>
-                    <a href="tel:1155314995" className="text-sm text-slate-600 hover:text-blue-600 hover:underline">(11) 5531-4995</a>
+                    <a href="https://wa.me/551196518981?text=Olá! Gostaria de falar com o atendimento da Alga Net." target="_blank" rel="noopener noreferrer" className="text-sm text-slate-600 hover:text-blue-600 hover:underline">(11) 9651-8981</a>
                   </div>
                 </div>
                 <div className="flex items-start">
                   <Mail className="w-5 h-5 text-blue-600 mr-3 shrink-0 mt-0.5" />
                   <div>
                     <p className="font-bold text-slate-950 text-sm">Correio Eletrônico</p>
-                    <a href="mailto:wagner@sennatel.com.br" className="text-sm text-slate-600 hover:text-blue-600 hover:underline">wagner@sennatel.com.br</a>
+                    <a href="https://wa.me/551196518981?text=Olá! Gostaria de falar com o atendimento da Alga Net por email." target="_blank" rel="noopener noreferrer" className="text-sm text-slate-600 hover:text-blue-600 hover:underline">contato.alganetfibra.com</a>
                   </div>
                 </div>
                 <div className="flex items-start">
                   <MapPin className="w-5 h-5 text-blue-600 mr-3 shrink-0 mt-0.5" />
                   <div>
                     <p className="font-bold text-slate-950 text-sm">Endereço de Supervisão Operacional</p>
-                    <p className="text-sm text-slate-600">Rua Carlo Prina, 52, Sala 3, Brooklin Paulista, São Paulo - SP, CEP 04601-030</p>
+                    <p className="text-sm text-slate-600">Uberlândia, Minas Gerais, Brasil</p>
                   </div>
                 </div>
               </div>

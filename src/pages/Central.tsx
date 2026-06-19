@@ -26,14 +26,14 @@ const WhatsAppIcon = (props: React.SVGProps<SVGSVGElement>) => (
 );
 
 export function Central() {
-  const zapNumber = "551155314995";
+  const zapNumber = "551196518981";
   const emailContact = "contato.alganetfibra.com";
 
   const departments = [
     {
       id: "vendas",
       title: "Contratar Fibra - Novas Assinaturas",
-      description: "Consultoria completa de vendas, planos de ultra velocidade 300 Mega a 1 Giga com Wi-Fi 6 e instalação inclusa no Brooklin.",
+      description: "Consultoria completa de vendas, planos de ultra velocidade 300 Mega a 1 Giga com Wi-Fi 6 e instalação inclusa em Uberlândia.",
       badge: "Vendas Online",
       message: "Olá! Gostaria de consultar a cobertura de fibra óptica e conhecer os melhores planos.",
       color: "border-[#28BEA5]/20 bg-[#28BEA5]/5 text-[#28BEA5]",
@@ -149,21 +149,25 @@ export function Central() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 h-full pt-4">
           
           <a 
-            href="tel:1155314995" 
+            href={`https://wa.me/${zapNumber}?text=Olá! Gostaria de falar com o atendimento.`}
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-white p-6 rounded-3xl border border-slate-100 hover:border-[#28BEA5]/30 hover:shadow-md transition-all duration-300 flex flex-col items-center text-center space-y-3 group"
           >
             <div className="w-12 h-12 rounded-full bg-slate-50 text-slate-800 flex items-center justify-center transition-colors group-hover:bg-[#28BEA5]/10 group-hover:text-[#28BEA5]">
               <PhoneCall className="w-5 h-5" />
             </div>
             <div>
-              <p className="text-[9px] text-slate-400 font-extrabold uppercase tracking-widest">Ligações por Telefone</p>
-              <p className="text-sm font-black text-slate-800 mt-1 uppercase tracking-tight font-mono">(11) 5531-4995</p>
-              <p className="text-[10px] text-slate-500 font-medium">Fale conosco por chamada fixo</p>
+              <p className="text-[9px] text-slate-400 font-extrabold uppercase tracking-widest">Ligações e Telefone</p>
+              <p className="text-sm font-black text-slate-800 mt-1 uppercase tracking-tight font-mono">(11) 9651-8981</p>
+              <p className="text-[10px] text-slate-500 font-medium">Chame agora no WhatsApp</p>
             </div>
           </a>
 
           <a 
-            href={`mailto:${emailContact}`} 
+            href={`https://wa.me/${zapNumber}?text=Olá! Gostaria de falar com o atendimento por email.`}
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-white p-6 rounded-3xl border border-slate-100 hover:border-[#28BEA5]/30 hover:shadow-md transition-all duration-300 flex flex-col items-center text-center space-y-3 group"
           >
             <div className="w-12 h-12 rounded-full bg-slate-50 text-slate-800 flex items-center justify-center transition-colors group-hover:bg-[#28BEA5]/10 group-hover:text-[#28BEA5]">
@@ -172,22 +176,25 @@ export function Central() {
             <div>
               <p className="text-[9px] text-slate-400 font-extrabold uppercase tracking-widest">E-mail de Contato</p>
               <p className="text-sm font-black text-slate-800 mt-1 tracking-tight lowercase">{emailContact}</p>
-              <p className="text-[10px] text-slate-500 font-medium">Contatos oficiais de mensagens</p>
+              <p className="text-[10px] text-slate-500 font-medium">Chame agora no WhatsApp</p>
             </div>
           </a>
 
-          <div 
-            className="bg-white p-6 rounded-3xl border border-slate-100 flex flex-col items-center text-center space-y-3"
+          <a 
+            href={`https://wa.me/${zapNumber}?text=Olá! Gostaria de consultar cobertura de fibra.`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-white p-6 rounded-3xl border border-slate-100 hover:border-[#28BEA5]/30 hover:shadow-md transition-all duration-300 flex flex-col items-center text-center space-y-3 group"
           >
             <div className="w-12 h-12 rounded-full bg-slate-50 text-[#28BEA5] flex items-center justify-center">
               <MapPin className="w-5 h-5" />
             </div>
             <div>
               <p className="text-[9px] text-slate-400 font-extrabold uppercase tracking-widest">Sede Principal</p>
-              <p className="text-sm font-black text-slate-800 mt-1 uppercase tracking-tight">Brooklin Paulista</p>
-              <p className="text-[10px] text-slate-500 font-medium">São Paulo - SP, Brasil</p>
+              <p className="text-sm font-black text-slate-800 mt-1 uppercase tracking-tight">Uberlândia</p>
+              <p className="text-[10px] text-slate-500 font-medium">Minas Gerais, Brasil</p>
             </div>
-          </div>
+          </a>
 
         </div>
 
@@ -196,7 +203,7 @@ export function Central() {
       {/* Safety & Compliance Bottom strip */}
       <section className="max-w-4xl mx-auto px-4 mt-16 text-center">
         <p className="text-[10px] text-slate-400 uppercase tracking-widest font-bold">
-          Sennatel Telecomunicações Integradas LTDA • Alga Net Fibra • Brooklin • São Paulo - SP
+          Sennatel Telecomunicações Integradas LTDA • Alga Net Fibra • Uberlândia - MG
         </p>
       </section>
 

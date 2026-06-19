@@ -97,11 +97,11 @@ export function Politicas({ route }: PoliticasProps) {
           subtitle: 'Ações práticas operacionais para conformidade integral com a Lei 13.709/2018.',
           icon: <ShieldCheck className="w-10 h-10 text-blue-600" />,
           sections: [
-            {
+             {
               heading: '1. Governança e Encarregado de Dados (DPO)',
               paragraphs: [
                 'A ALGA NET FIBRA, ciente da importância imposta pela Lei Geral de Proteção de Dados brasileira (Leis Federais 13.709/18 e 13.853/19), elegeu Encarregado Interno de Governança de Dados (DPO) corporativo para responder a questionamentos.',
-                'Para contatar o DPO, utilize o e-mail: wagner@sennatel.com.br, sob supervisão operacional de WAGNER SENNA, com sede na Rua Carlo Prina, Brooklin Paulista.',
+                'Para contatar o DPO, utilize o e-mail: contato.alganetfibra.com, sob supervisão operacional de WAGNER SENNA, com sede em Uberlândia, Minas Gerais.',
               ],
             },
             {
@@ -113,7 +113,7 @@ export function Politicas({ route }: PoliticasProps) {
             {
               heading: '3. Gestão de Consentimentos',
               paragraphs: [
-                'Ao submeter dados no formulário de contato do site Alga Net Fibra ou aceitar o termo de cookies, você concede consentimento ativo tácito apenas para os escopos de vendas da fibra, sob plenos direitos de revogabilidade a qualquer momento por WhatsApp central corporativo ou telefone de faturamento: (11) 5531-4995.',
+                'Ao submeter dados no formulário de contato do site Alga Net Fibra ou aceitar o termo de cookies, você concede consentimento ativo tácito apenas para os escopos de vendas da fibra, sob plenos direitos de revogabilidade a qualquer momento por WhatsApp central corporativo ou telefone de faturamento: (11) 9651-8981.',
               ],
             },
           ],

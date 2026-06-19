@@ -81,7 +81,7 @@ export function Layout({ children }: LayoutProps) {
           )}
           
           <a
-            href="https://wa.me/551155314995?text=Ol%C3%A1%21+Gostaria+de+consultar+a+cobertura+da+fibra+e+conhecer+os+planos."
+            href="https://wa.me/551196518981?text=Olá! Gostaria de consultar a cobertura da fibra e conhecer os planos."
             target="_blank"
             rel="noopener noreferrer"
             id="floating_whatsapp_btn"

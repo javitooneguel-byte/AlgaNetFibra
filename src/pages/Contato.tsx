@@ -65,10 +65,10 @@ export function Contato() {
                 </div>
                 <div>
                   <p className="font-bold text-sm text-slate-900">Atendimento Telefônico</p>
-                  <a href="tel:1155314995" className="text-xs text-blue-600 hover:underline">
-                    (11) 5531-4995
+                  <a href="https://wa.me/551196518981?text=Olá! Gostaria de falar com o atendimento." target="_blank" rel="noopener noreferrer" className="text-xs text-blue-600 hover:underline">
+                    (11) 9651-8981
                   </a>
-                  <p className="text-[10px] text-gray-400 mt-1">Conexão telefônica comercial central.</p>
+                  <p className="text-[10px] text-gray-400 mt-1">Clique para chamar no WhatsApp.</p>
                 </div>
               </div>
 
@@ -78,11 +78,11 @@ export function Contato() {
                 </div>
                 <div>
                   <p className="font-bold text-sm text-slate-900">WhatsApp Comercial</p>
-                  <a href="https://wa.me/551155314995?text=Ol%C3%A1%21+Gostaria+de+conhecer+os+planos." target="_blank" className="text-xs text-green-600 hover:underline font-bold inline-flex items-center gap-1">
+                  <a href="https://wa.me/551196518981?text=Olá! Gostaria de conhecer os planos." target="_blank" rel="noopener noreferrer" className="text-xs text-green-600 hover:underline font-bold inline-flex items-center gap-1">
                     <WhatsAppIcon className="w-3.5 h-3.5" />
-                    <span>(11) 5531-4995</span>
+                    <span>(11) 9651-8981</span>
                   </a>
-                  <p className="text-[10px] text-gray-400 mt-1">Chat de triagem padrão 24/7.</p>
+                  <p className="text-[10px] text-gray-400 mt-1">Conexão instantânea para vendas e suporte.</p>
                 </div>
               </div>
 
@@ -92,10 +92,10 @@ export function Contato() {
                 </div>
                 <div>
                   <p className="font-bold text-sm text-slate-900">E-mail Corporativo</p>
-                  <a href="mailto:wagner@sennatel.com.br" className="text-xs text-blue-600 hover:underline break-all block">
-                    wagner@sennatel.com.br
+                  <a href="https://wa.me/551196518981?text=Olá! Gostaria de falar com o atendimento da Alga Net por email." target="_blank" rel="noopener noreferrer" className="text-xs text-blue-600 hover:underline break-all block">
+                    contato.alganetfibra.com
                   </a>
-                  <p className="text-[10px] text-gray-400 mt-1">Retornos em até 2 horas comerciais.</p>
+                  <p className="text-[10px] text-gray-400 mt-1">Clique para chamar no WhatsApp.</p>
                 </div>
               </div>
 
@@ -106,9 +106,8 @@ export function Contato() {
                 <div>
                   <p className="font-bold text-sm text-slate-900">Endereço de Supervisão</p>
                   <p className="text-xs text-gray-600 leading-relaxed">
-                    Rua Carlo Prina, 52, Sala 3<br />
-                    Brooklin Paulista - São Paulo / SP<br />
-                    CEP 04601-030
+                    Uberlândia<br />
+                    Minas Gerais, Brasil
                   </p>
                 </div>
               </div>
@@ -247,12 +246,12 @@ export function Contato() {
       {/* Map visual mock representational */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-t border-gray-150 pt-16 space-y-6">
         <h3 className="font-extrabold text-lg text-slate-900 uppercase tracking-widest text-center">Localização Operacional</h3>
-        <p className="text-xs text-gray-500 text-center max-w-xl mx-auto">Brooklin Paulista, São Paulo - SP. Estação central interligada a nossa malha concessionária de postes e caixas ópticas.</p>
+        <p className="text-xs text-gray-500 text-center max-w-xl mx-auto">Uberlândia, Minas Gerais. Estação central interligada a nossa malha concessionária de postes e caixas ópticas.</p>
         
         <div className="h-80 bg-slate-100 rounded-3xl border border-gray-200 relative overflow-hidden flex flex-col items-center justify-center shadow-inner">
           <div className="absolute inset-0 bg-[linear-gradient(to_right,#ccd_1.2px,transparent_1.2px),linear-gradient(to_bottom,#ccd_1.2px,transparent_1.2px)] bg-[size:32px_32px] opacity-35"></div>
-          <div className="absolute h-10 w-full bg-slate-200/50 top-1/2 -skew-y-6 flex items-center justify-center border-y border-gray-300 text-[10px] font-bold text-gray-400 tracking-widest select-none">AVENIDA BANDEIRANTES</div>
-          <div className="absolute w-12 h-full bg-slate-200/50 left-[48%] rotate-12 flex items-center justify-center border-x border-gray-300 text-[10px] font-bold text-gray-400 tracking-widest select-none">RUA CARLO PRINA</div>
+          <div className="absolute h-10 w-full bg-slate-200/50 top-1/2 -skew-y-6 flex items-center justify-center border-y border-gray-300 text-[10px] font-bold text-gray-400 tracking-widest select-none">AVENIDA AFONSO PENA</div>
+          <div className="absolute w-12 h-full bg-slate-200/50 left-[48%] rotate-12 flex items-center justify-center border-x border-gray-300 text-[10px] font-bold text-gray-400 tracking-widest select-none">CENTRO</div>
           
           <div className="relative z-10 flex flex-col items-center">
             <span className="flex h-8 w-8 relative">

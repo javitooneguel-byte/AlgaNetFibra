@@ -294,7 +294,7 @@ export function Suporte() {
                     <div key={idx} className="p-3 bg-white border border-gray-150 rounded-lg flex items-center justify-between text-slate-800 font-medium">
                       <span>{fatura}</span>
                       <a
-                        href="https://wa.me/551155314995?text=Preciso+do+link+completo+do+boleto+do+m%C3%AAs+vigente."
+                        href="https://wa.me/551196518981?text=Preciso+do+link+completo+do+boleto+do+m%C3%AAs+vigente."
                         target="_blank"
                         className="inline-flex items-center gap-1 text-green-600 font-bold hover:underline"
                       >
@@ -311,7 +311,7 @@ export function Suporte() {
           <div className="pt-2 border-t border-gray-100 flex items-center justify-between text-[11px] text-gray-400">
             <span>Dúvidas de débitos?</span>
             <a
-              href="https://wa.me/551155314995?text=Gostaria+de+falar+com+o+setor+financeiro+da+Alga+Net."
+              href="https://wa.me/551196518981?text=Gostaria+de+falar+com+o+setor+financeiro+da+Alga+Net."
               target="_blank"
               className="inline-flex items-center gap-1 text-green-600 font-bold hover:underline"
             >

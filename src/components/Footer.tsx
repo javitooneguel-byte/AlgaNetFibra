@@ -100,24 +100,23 @@ export function Footer() {
               <li className="flex items-start">
                 <Phone className="w-5 h-5 text-blue-500 mr-3 shrink-0 mt-0.5" />
                 <div className="space-y-0.5">
-                  <a href="tel:1155314995" className="hover:text-white transition font-medium text-slate-200 block">
-                    (11) 5531-4995
+                  <a href="https://wa.me/551196518981?text=Olá! Gostaria de falar com o atendimento da Alga Net." target="_blank" rel="noopener noreferrer" className="hover:text-white transition font-medium text-slate-200 block">
+                    (11) 9651-8981
                   </a>
-                  <p className="text-xs text-slate-500">Atendimento 24/7 para suporte</p>
+                  <p className="text-xs text-slate-500">Chame agora no WhatsApp</p>
                 </div>
               </li>
               <li className="flex items-start">
                 <Mail className="w-5 h-5 text-blue-500 mr-3 shrink-0 mt-0.5" />
-                <a href="mailto:wagner@sennatel.com.br" className="hover:text-white transition text-slate-300 break-all block">
-                  wagner@sennatel.com.br
+                <a href="https://wa.me/551196518981?text=Olá! Gostaria de falar com o atendimento da Alga Net por email." target="_blank" rel="noopener noreferrer" className="hover:text-white transition text-slate-300 break-all block">
+                  contato.alganetfibra.com
                 </a>
               </li>
               <li className="flex items-start">
                 <MapPin className="w-5 h-5 text-blue-500 mr-3 shrink-0 mt-0.5" />
                 <span>
-                  Rua Carlo Prina, 52, Sala 3<br />
-                  Brooklin Paulista - São Paulo / SP<br />
-                  CEP 04601-030
+                  Uberlândia<br />
+                  Minas Gerais, Brasil<br />
                 </span>
               </li>
             </ul>

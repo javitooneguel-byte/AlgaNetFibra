@@ -121,7 +121,7 @@ export const REVIEWS: Review[] = [
   {
     id: '1',
     name: 'Mariana Silva',
-    city: 'Brooklin',
+    city: 'Uberlândia',
     role: 'Home Office - Designer',
     stars: 5,
     text: 'A Alga Net Fibra mudou minha rotina de trabalho. Faço uploads de arquivos de vídeo pesados e chamadas de vídeo sem travar em nenhum momento. O Wi-Fi 6 deles tem um alcance impressionante!'
@@ -353,8 +353,8 @@ export const SEO_DATA: Record<string, SeoMetadata> = {
   },
   '/contato': {
     title: 'Endereço, Telefone e Canais de Contato | Alga Net Fibra',
-    description: 'Fale conosco no Brooklin Paulista. Telefone (11) 5531-4995, email wagner@sennatel.com.br e formulário direto de contato para soluções corporativas ou residenciais.',
-    keywords: 'wagner senna sennatel, telefone sennatel, brooklin paulista endereço comercial, email de contato telecom',
+    description: 'Fale conosco em Uberlândia, Minas Gerais. Telefone (11) 9651-8981, email contato.alganetfibra.com e canais direto de contato para soluções corporativas ou residenciais.',
+    keywords: 'wagner senna sennatel, telefone sennatel, uberlândia endereço comercial, email de contato telecom, whatsapp alga net',
     canonical: 'https://alganetfibra.com.br/contato'
   },
   '/politica-de-privacidade': {

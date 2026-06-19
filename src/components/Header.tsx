@@ -152,15 +152,17 @@ export function Header() {
           {/* Desktop Right CTA (Very high CRO value for campaigns) */}
           <div className="hidden lg:flex items-center space-x-4">
             <a
-              href="tel:1155314995"
+              href="https://wa.me/551196518981?text=Olá! Gostaria de falar com o atendimento."
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center text-[11px] font-bold uppercase tracking-wider text-slate-600 hover:text-[#28BEA5] transition"
               id="cta_call"
             >
               <Phone className="w-4 h-4 text-[#28BEA5] mr-1.5" />
-              <span>(11) 5531-4995</span>
+              <span>(11) 9651-8981</span>
             </a>
             <a
-              href="https://wa.me/551155314995?text=Ol%C3%A1%21+Gostaria+de+consultar+a+cobertura+da+fibra+e+conhecer+os+planos."
+              href="https://wa.me/551196518981?text=Olá! Gostaria de consultar a cobertura da fibra e conhecer os planos."
               target="_blank"
               rel="noopener noreferrer"
               id="cta_whatsapp_header"
@@ -232,14 +234,16 @@ export function Header() {
 
           <div className="pt-4 border-t border-gray-100 space-y-2">
             <a
-              href="tel:1155314995"
+              href="https://wa.me/551196518981?text=Olá! Gostaria de falar com o atendimento."
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center px-3 py-2 text-base font-medium text-gray-700 hover:text-[#28BEA5]"
             >
               <Phone className="w-5 h-5 text-[#28BEA5] mr-2" />
-              <span>(11) 5531-4995</span>
+              <span>(11) 9651-8981</span>
             </a>
             <a
-              href="https://wa.me/551155314995?text=Ol%C3%A1%21+Gostaria+de+consultar+a+cobertura+da+fibra+e+conhecer+os+planos."
+              href="https://wa.me/551196518981?text=Olá! Gostaria de consultar a cobertura da fibra e conhecer os planos."
               target="_blank"
               rel="noopener noreferrer"
               className="w-full flex items-center justify-center bg-[#28BEA5] hover:bg-[#28BEA5]/90 text-white font-medium py-3 px-4 rounded-xl transition shadow shadow-[#28BEA5]/20"

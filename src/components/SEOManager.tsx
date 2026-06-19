@@ -119,9 +119,9 @@ export function SEOManager({ route }: SEOManagerProps) {
       'contactPoint': [
         {
           '@type': 'ContactPoint',
-          'telephone': '+55-11-5531-4995',
+          'telephone': '+55-11-9651-8981',
           'contactType': 'customer support',
-          'email': 'wagner@sennatel.com.br',
+          'email': 'contato.alganetfibra.com',
           'areaServed': 'BR',
           'availableLanguage': 'Portuguese'
         }
@@ -135,14 +135,14 @@ export function SEOManager({ route }: SEOManagerProps) {
       '@type': 'LocalBusiness',
       'name': 'Alga Net Fibra',
       'image': 'https://alganetfibra.com.br/assets/images/logo_redonda_1781822224877.jpg',
-      'telephone': '(11) 5531-4995',
-      'email': 'wagner@sennatel.com.br',
+      'telephone': '(11) 9651-8981',
+      'email': 'contato.alganetfibra.com',
       'address': {
         '@type': 'PostalAddress',
-        'streetAddress': 'Rua Carlo Prina, 52, Sala 3',
-        'addressLocality': 'Brooklin Paulista, São Paulo',
-        'postalCode': '04601-030',
-        'addressRegion': 'SP',
+        'streetAddress': 'Uberlândia',
+        'addressLocality': 'Centro, Uberlândia',
+        'postalCode': '38400-000',
+        'addressRegion': 'MG',
         'addressCountry': 'BR'
       },
       'priceRange': '$$',

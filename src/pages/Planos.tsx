@@ -180,7 +180,7 @@ export function Planos() {
 
               <div className="p-6 bg-slate-50 border-t border-slate-100 text-center">
                 <a
-                  href={`https://wa.me/551155314995?text=Ol%C3%A1%21+Gostaria+de+concluir+a+contratação+da+fibra+no+plano:+${encodeURIComponent(plan.name)}+-+R%24+${plan.price}/mes`}
+                  href={`https://wa.me/551196518981?text=Olá! Gostaria de concluir a contratação da fibra no plano: ${encodeURIComponent(plan.name)} - R$ ${plan.price}/mes`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full inline-flex items-center justify-center gap-2 py-3.5 px-4 bg-green-500 hover:bg-green-600 text-white font-bold text-xs uppercase tracking-wider rounded-xl shadow-[0_4px_12px_rgba(34,197,94,0.2)] hover:shadow-[0_4px_20px_rgba(34,197,94,0.4)] hover:scale-[1.01] transition-all duration-300"

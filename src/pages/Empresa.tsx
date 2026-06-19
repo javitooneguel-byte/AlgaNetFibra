@@ -16,7 +16,7 @@ export function Empresa() {
               Operada sob a direção corporativa de <strong>WAGNER SENNA 07571517877 (Sennatel)</strong>, a Alga Net Fibra nasceu com um propósito claro: democratizar o acesso à internet corporativa de baixíssima latência e redes residenciais simétricas estáveis.
             </p>
             <p className="text-gray-500 leading-relaxed text-sm">
-              Com sede de supervisão de faturamento administrativo na famosa <strong>Rua Carlo Prina, Brooklin Paulista</strong>, em São Paulo, nos tornamos referência na implantação de redes ópticas modernas de padrão GPON, oferecendo planos robustos transparentes e suporte 24 horas por dia.
+              Com sede de supervisão de faturamento administrativo em <strong>Uberlândia, Minas Gerais</strong>, nos tornamos referência na implantação de redes ópticas modernas de padrão GPON, oferecendo planos robustos transparentes e suporte 24 horas por dia.
             </p>
           </div>
 

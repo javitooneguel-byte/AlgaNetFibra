@@ -125,9 +125,9 @@ export function Faq() {
             <p className="text-xs text-gray-500">Nossos consultores oficiais atendem ao vivo sem esperas ou robôs.</p>
           </div>
           <a
-            href="https://wa.me/551155314995?text=Ol%C3%A1%21+Consultei+o+Faq+e+tenho+outras+duvidas+comerciais."
+            href="https://wa.me/551196518981?text=Olá! Consultei o Faq e tenho outras duvidas comerciais."
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
             className="px-5 py-3 bg-green-500 hover:bg-green-600 text-white font-bold text-xs rounded-xl shadow-md transition whitespace-nowrap flex items-center gap-2"
           >
             <WhatsAppIcon className="w-4 h-4" />

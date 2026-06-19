@@ -82,7 +82,7 @@ export function Cobertura() {
                     className="w-full pl-11 pr-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-600 focus:border-blue-600 font-medium text-slate-800"
                   />
                 </div>
-                <p className="text-[10px] text-gray-400 mt-1.5">* Brooklin Paulista (polo administrativo) possui viabilidade imediata instalada.</p>
+                <p className="text-[10px] text-gray-400 mt-1.5">* Uberlândia, Minas Gerais possui viabilidade imediata instalada.</p>
               </div>
 
               <button
@@ -109,9 +109,9 @@ export function Cobertura() {
                 {searchFeedback.status === 'success' && (
                   <div className="pt-2 flex gap-3">
                     <a
-                      href="https://wa.me/551155314995?text=Ol%C3%A1%21+Consultei+cobertura+no+site+e+constatou+fibra+ativa.+Quero+assinar."
+                      href="https://wa.me/551196518981?text=Olá! Consultei cobertura no site e constatou fibra ativa. Quero assinar."
                       target="_blank"
-                      rel="noopener"
+                      rel="noopener noreferrer"
                       className="inline-flex items-center gap-1.5 px-4 py-1.5 bg-green-500 hover:bg-green-600 text-white font-bold text-xs rounded-lg transition"
                     >
                       <WhatsAppIcon className="w-3.5 h-3.5" />
@@ -129,7 +129,7 @@ export function Cobertura() {
               </div>
               <div className="text-xs">
                 <p className="font-bold text-slate-900">Dúvidas sobre rotas em condomínios?</p>
-                <p className="text-gray-500 mt-0.5">Chame nosso gerente de condomínio fone: <strong className="text-slate-800">(11) 5531-4995</strong></p>
+                <p className="text-gray-500 mt-0.5">Chame nosso gerente de condomínio fone: <a href="https://wa.me/551196518981?text=Olá! Gostaria de tirar dúvidas de rotas em condomínios." target="_blank" rel="noopener noreferrer" className="text-blue-600 font-bold hover:underline hover:text-blue-700">(11) 9651-8981</a></p>
               </div>
             </div>
           </div>
