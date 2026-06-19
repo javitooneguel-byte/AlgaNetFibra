@@ -21,7 +21,7 @@ export default function App() {
   const renderPage = () => {
     switch (currentRoute) {
       case '/':
-        return <Home />;
+        return <Central />;
       case '/planos':
         return <Planos />;
       case '/cobertura':
@@ -33,7 +33,7 @@ export default function App() {
       case '/faq':
         return <Faq />;
       case '/central':
-        return <Central />;
+        return <Home />;
       case '/contato':
         return <Contato />;
       case '/politica-de-privacidade':
@@ -44,7 +44,7 @@ export default function App() {
       case '/sitemap':
         return <Sitemap />;
       default:
-        return <Home />;
+        return <Central />;
     }
   };
 

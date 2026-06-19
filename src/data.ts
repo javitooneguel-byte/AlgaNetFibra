@@ -310,9 +310,9 @@ export const COVERAGE_CITIES: CityCoverage[] = [
 
 export const SEO_DATA: Record<string, SeoMetadata> = {
   '/': {
-    title: 'Alga Net Fibra | Internet Banda Larga Fibra Óptica Residencial e Comercial',
-    description: 'Navegue em ultravelocidade com o melhor provedor de internet de fibra óptica. Planos de 300 Mega a 1 Giga com Wi-Fi 6 gratuito, instalação inclusa e estabilidade absoluta.',
-    keywords: 'internet fibra, fibra óptica, internet banda larga, alga net, sennatel, planos residencial, internet empresa, wifi 6, alta velocidade, brooklin paulista',
+    title: 'Central de Atendimento ao Cliente e WhatsApp | Alga Net Fibra',
+    description: 'Entre em contato direto com os nossos especialistas. Canais oficiais de vendas, financeiro e consultaria técnica ágil via fone e botão flutuante WhatsApp.',
+    keywords: 'central de atendimento, numero whatsapp, tempo resposta suporte, falar com atendente',
     canonical: 'https://alganetfibra.com.br/'
   },
   '/planos': {
@@ -346,9 +346,9 @@ export const SEO_DATA: Record<string, SeoMetadata> = {
     canonical: 'https://alganetfibra.com.br/faq'
   },
   '/central': {
-    title: 'Central de Atendimento ao Cliente e WhatsApp | Alga Net Fibra',
-    description: 'Entre em contato direto com os nossos especialistas. Canais oficiais de vendas, financeiro e consultaria técnica ágil via fone e botão flutuante WhatsApp.',
-    keywords: 'central de atendimento, numero whatsapp, tempo resposta suporte, falar com atendente',
+    title: 'Alga Net Fibra | Internet Banda Larga Fibra Óptica Residencial e Comercial',
+    description: 'Navegue em ultravelocidade com o melhor provedor de internet de fibra óptica. Planos de 300 Mega a 1 Giga com Wi-Fi 6 gratuito, instalação inclusa e estabilidade absoluta.',
+    keywords: 'internet fibra, fibra óptica, internet banda larga, alga net, sennatel, planos residencial, internet empresa, wifi 6, alta velocidade, brooklin paulista',
     canonical: 'https://alganetfibra.com.br/central'
   },
   '/contato': {
